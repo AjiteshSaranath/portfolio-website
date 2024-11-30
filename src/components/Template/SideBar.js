@@ -22,8 +22,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I am a seasoned software engineer with proven experience in Backend Development and DevOps. Have worked as an
-        Intern @KONE Elevator as a SWE Intern (DevOps) and as an SDE Backend @Infiquity Auto Technolgies Pvt Ltd.
+        Seasoned Software Engineer with demonstrated expertise in Backend Development and DevOps.
+        I have successfully contributed as a Software Engineering Intern (DevOps) at KONE Elevator and as a Backend Software Development
+        Engineer at Infiquity Auto Technologies Pvt Ltd. My professional journey reflects a strong technical foundation,
+        problem-solving acumen, and a commitment to delivering robust and scalable solutions.
       </p>
       <ul className="actions">
         <li>
@@ -43,7 +45,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Ajitesh Saranath K
       </p>
     </section>
   </section>

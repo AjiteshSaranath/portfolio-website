@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Ajitesh Saranath personal website. Bengaluru based Backend Developer, "
+      'Ajitesh Saranath personal website. Bengaluru based Backend Developer, '
       + 'SWE Intern @ KONE Elevator India, SDE @ Infiquity Auto Technolgies Pvt Ltd'
     }
   >

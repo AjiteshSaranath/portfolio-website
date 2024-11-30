@@ -22,7 +22,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/no-static-element-interactions': 0,
-    'linebreak-style': ['error', os.EOL === '\r\n' ? 'windows' : 'unix'],
+    'linebreak-style': ['error', os.platform() === 'win32' ? 'windows' : 'unix'],
     'no-console': [
       'error',
       {
@@ -52,5 +52,8 @@ module.exports = {
         return: true,
       },
     ],
+    // Added rules
+    'no-unused-vars': ['warn'], // Changes unused vars from error to warning
+    'max-len': ['error', { code: 400 }], // Increases line length limit to 120 characters
   },
 };

@@ -22,11 +22,11 @@ const work = [
       'Engineered the backend infrastructure for an Electric Vehicle Charger Management System (EV-CMS) using Node.js, Express, MongoDB, PostgreSQL, and SQLite3, ensuring robust and scalable solutions.',
 
       'Authored and optimized server-side code for multiple TCP servers, effectively integrating IoT devices such as Chargers, Telematics, and TestBench systems, and enabling seamless data storage across various database platforms',
-      
+
       'Spearheaded research and development efforts for the implementation of the OCPP 1.6J (Open Charge Point Protocol), leading to the successful deployment of server-side solutions for managing EV chargers.',
-      
+
       'Implemented and optimized Jenkins pipelines across multiple projects to automate the Continuous Integration/Continuous Deployment (CI/CD) process, significantly improving deployment efficiency from GitHub repositories.',
-      
+
       'Led the creation and configuration of Google Cloud Platform (GCP) instances, enabling the deployment of CI/CD pipelines and backend services within a microservices architecture, thereby ensuring flexibility, scalability, and efficient resource management.',
     ],
   },
@@ -36,7 +36,7 @@ const work = [
     url: 'https://www.kone.in/',
     startDate: '2022-05-01',
     endDate: '2022-07-01',
-    summary: `At KONE, our mission is to improve the flow of urban life. We understand People Flow in and between buildings, making people’s journeys safe, convenient and reliable. In 2020, KONE had annual sales of EUR 9.9 billion, and at the end of the year over 60,000 employees.`,
+    summary: 'At KONE, our mission is to improve the flow of urban life. We understand People Flow in and between buildings, making people’s journeys safe, convenient and reliable. In 2020, KONE had annual sales of EUR 9.9 billion, and at the end of the year over 60,000 employees.',
     highlights: [
       'Interned at KONE Elevator during Summer 2022, gaining practical experience with AWS.',
       'Optimized code by tweaking multiple Python programs within AWS Lambda, improving efficiency.',
