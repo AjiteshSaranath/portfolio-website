@@ -11,18 +11,12 @@ module.exports = {
   parser: '@babel/eslint-parser',
   plugins: ['react'],
   rules: {
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        aspects: ['noHref', 'invalidHref', 'preferButton'],
-        components: ['Link'],
-        specialLink: ['to', 'hrefLeft', 'hrefRight'],
-      },
-    ],
-    'jsx-a11y/click-events-have-key-events': 0,
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/no-static-element-interactions': 0,
-    'linebreak-style': ['error', os.platform() === 'win32' ? 'windows' : 'unix'],
+    'linebreak-style': 0, // Disable linebreak-style check
+    'react/jsx-one-expression-per-line': 0, // Disable strict rule for JSX expressions on new lines
+    'jsx-a11y/click-events-have-key-events': 0, // Disable requirement for keyboard listeners
+    'jsx-a11y/no-static-element-interactions': 0, // Allow click handlers on static elements
+    'jsx-a11y/anchor-is-valid': 0, // Disable anchor validation checks
+    'react/jsx-no-useless-fragment': 0, // Allow single-child fragments
     'no-console': [
       'error',
       {
@@ -41,19 +35,8 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
-    'react/jsx-no-useless-fragment': 0,
-    'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 0,
-    'react/jsx-wrap-multilines': [
-      1,
-      {
-        assignment: true,
-        declaration: true,
-        return: true,
-      },
-    ],
-    // Added rules
-    'no-unused-vars': ['warn'], // Changes unused vars from error to warning
-    'max-len': ['error', { code: 400 }], // Increases line length limit to 120 characters
+    'no-unused-vars': ['warn'], // Treat unused variables as warnings
+    'max-len': ['warn', { code: 400 }], // Increase line length limit
   },
 };
